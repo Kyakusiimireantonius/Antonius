@@ -1,0 +1,14 @@
+<?php 
+$Myname = "KYAKUSIIMIRE ANTONIUS";
+$DOB = "16/9/2002";
+$Address = "Bushenyi";
+$CurrentYr = 2024;
+$BirthYr = 2002;
+$Age = $CurrentYr - $BirthYr; // Proper age calculation
+
+echo "Name: " . $Myname . "\n";
+echo "Date of birth: " . $DOB . "\n";
+echo "Home address: " . $Address . "\n";
+echo "You're welcome home, " . $Myname . "\n";
+echo "You are now " . $Age . " years old.\n"; 
+?>
